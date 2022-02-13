@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>亿诺LIMS查询</title>
+    <title>报告查询</title>
     <meta name="viewport" content="width=width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/viewer.css">
@@ -84,7 +84,7 @@
 </div>
 
 <footer>
-    <h6 style="text-align: center;font-size: 18px;">亿诺LIMS查询.${year}</h6>
+    <h6 style="text-align: center;font-size: 18px;"></h6>
 </footer>
 </body>
 </html>
