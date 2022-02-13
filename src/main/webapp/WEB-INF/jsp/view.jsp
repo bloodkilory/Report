@@ -65,16 +65,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href=""><img src="/pic/title_bg4.png" style="height:25px"></a>
+<%--            <a class="navbar-brand" href=""><img src="/pic/title_bg4.png" style="height:25px"></a>--%>
+            <a class="navbar-brand" href=""><div style="height:25px">报告查询</div></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">报告</a></li>
-                <li><a href="">档案</a></li>
-                <li><a href="">样品</a></li>
+
             </ul>
         </div>
     </div>
