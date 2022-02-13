@@ -48,7 +48,7 @@ public class ReportController {
     @Value("${server.port}")
     private String port;
 
-    private final String prefix = "/usr/work";
+    private final String prefix = "/var/tmp";
     private final String workPath =  prefix +"/file";
     private final String tempPath = prefix + "/files";
 

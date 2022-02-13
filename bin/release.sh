@@ -12,6 +12,6 @@ if [ $? -eq 1 ]; then
 	exit 1
 fi
 
-scp $API_DIR"/target/report.war" root@121.89.166.67:/usr/work/report
+scp $API_DIR"/target/report.war" root@121.89.166.67:/var/tmp/report
 echo "scp report success... \n"
-ssh root@121.89.166.67 "cd /usr/work/report && sh restart.sh"
+ssh root@121.89.166.67 "cd /var/tmp/report && sh restart.sh"

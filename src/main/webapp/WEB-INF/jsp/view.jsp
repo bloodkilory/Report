@@ -11,6 +11,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-combined.min.css" rel="stylesheet">
     <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/pdfobject.min.js"></script>
     <script>
         (function (doc, win) {
             var docEl = win.document.documentElement;
@@ -53,6 +54,22 @@
 
         })(document, window);
     </script>
+    <script type="text/javascript">
+        if(PDFObject.supportsPDFs){
+            // PDF嵌入到网页
+            PDFObject.embed('${filePath}', "#pdf_viewer" );
+        } else {
+            location.href = "/canvas";
+        }
+    </script>
+    <style type="text/css">
+        html,body,#pdf_viewer{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body topmargin="0" leftmargin="0" onblur="GSubmitting = false;"
@@ -79,9 +96,7 @@
         </div>
     </div>
 </div>
-<div style="width: 100%;height: 100%;margin-top: 50px;margin-bottom: 40px;">
-    <iframe src="/web/viewer.html?file=${filePath}" style="width: 100%;height: 100%;"></iframe>
-</div>
+<div id="pdf_viewer"></div>
 
 <footer>
     <h6 style="text-align: center;font-size: 18px;">亿诺LIMS查询.${year}</h6>

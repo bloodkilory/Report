@@ -12,7 +12,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/file/**").addResourceLocations("file:/usr/work/file/");
+        registry.addResourceHandler("/file/**").addResourceLocations("file:/var/tmp/file/");
         registry.addResourceHandler("/static/**").addResourceLocations("/WEB-INF/" + "/static/");
     }
 
