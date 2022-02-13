@@ -66,7 +66,7 @@
                 <span class="icon-bar"></span>
             </button>
 <%--            <a class="navbar-brand" href=""><img src="/pic/title_bg4.png" style="height:25px"></a>--%>
-            <a class="navbar-brand" href=""><div style="height:25px">报告查询</div></a>
+            <a class="navbar-brand" href="" style="height: 50px"><span class="fontt">报告查询</span></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
